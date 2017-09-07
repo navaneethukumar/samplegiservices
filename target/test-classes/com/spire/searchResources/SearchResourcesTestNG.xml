@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<suite name="Talent 2.0 Automation" parallel="tests" thread-count="1">
+<listeners>
+    <listener class-name="com.spire.base.reporter.SpireReport"/>
+     <listener class-name="com.spire.base.controller.TestRetryListener"/>
+    <listener class-name="com.spire.base.reporter.SpireEmailReport"/>
+</listeners>
+<listeners>
+		<listener class-name="com.spire.base.reporter.SpireReport" />
+		<listener class-name="com.spire.base.controller.TestRetryListener" />
+	</listeners>
+	<parameter name="host" value ="http://192.168.2.177:8080"/>
+	<parameter name="userId" value="tester@logica.com" />
+	<parameter name="password" value="spire@123" />
+	    <parameter name="healthCheck" value="false"/>	
+        <test name="CandidateResourcesTestPlan">
+		<groups>
+			<run>
+				<include name="GetSimillerProfiles"/>
+				<include name="verifySuggestRequest"/>
+				<include name="verifySuggestValidation"/>
+				<include name="verifySuggestForSkillwithMultipleWords"/>
+				<include name="verifySuggestForSkillwithSpecialCharacter"/>
+				
+				<include name="getSavedSearch"/>
+				<include name="getSavedSearchById"/>
+				<include name="getSavedSearchByNonExistingId"/>
+				
+				<include name="searchCandidatesWithSkill"/>
+				<include name="searchCandidatesWithSkillAndLocation"/>
+				<include name="verifySuggestValidation"/>
+				
+				<include name="listSavedSearchWithSortByModifiedOnAsc"/>
+				<include name="listSavedSearchWithSortByModifiedOnDsc"/>
+				<include name="listSavedSearchWithSortByCreatedOnAsc"/>
+				<include name="listSavedSearchWithSortByCreatedOnDsc"/> 
+				<include name="verifySuggestRequestForInvalidKeyword"/>
+				<include name="getSavedSearchByIdWithSpace"/>
+				<include name="createSavedSearchWithSkill"/>
+			    <include name="createSavedSearchInputBeanWithSkillAndLocation"/>
+				<include name="createPublicSavedSearchWithSkill"/>
+				<include name="deleteSavedSearchById"/>
+				<include name="deleteSavedSearchByIdNonExisting"/>
+			
+				
+			</run>
+		</groups>
+		<packages>
+			<package name="com.spire.searchResources" />
+		</packages>
+	</test>
+</suite>               
+        
+   

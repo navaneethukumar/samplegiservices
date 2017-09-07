@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Talent 2.0 Automation]" parallel="tests">
+  <parameter name="password" value="spire@123"/>
+  <parameter name="healthCheck" value="false"/>
+  <parameter name="host" value="http://192.168.2.177:8180"/>
+  <parameter name="userId" value="tester@logica.com"/>
+  <listeners>
+    <listener class-name="com.spire.base.reporter.SpireReport"/>
+    <listener class-name="com.spire.base.controller.TestRetryListener"/>
+  </listeners>
+  <test name="RequsisitionSearchTestPlan(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="GetRequisitionSearch"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.spire.requisitionResources.RequisitionResourcesTestPlan">
+        <methods>
+          <include name="afterTestMethod"/>
+          <include name="setUp"/>
+          <include name="afterTestSuite"/>
+          <include name="GetRequisitionSearch"/>
+          <include name="beforeTestSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeTestMethod"/>
+          <include name="_takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- com.spire.requisitionResources.RequisitionResourcesTestPlan -->
+      <class name="com.spire.requisitionResources.SearchResourcesTestPlan">
+        <methods>
+          <include name="afterTestMethod"/>
+          <include name="GetRequisitionSearch"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="beforeTestMethod"/>
+          <include name="_takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- com.spire.requisitionResources.SearchResourcesTestPlan -->
+    </classes>
+  </test> <!-- RequsisitionSearchTestPlan(failed) -->
+</suite> <!-- Failed suite [Talent 2.0 Automation] -->

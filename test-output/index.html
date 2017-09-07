@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Talent_2.0_Automation">
+              <span class="suite-name border-failed">Talent 2.0 Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Talent_2.0_Automation">
+                    <span>F:\HACK\gi\gi\src\test\java\com\spire\requisitionResources\SearchResourcesTestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Talent_2.0_Automation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Talent_2.0_Automation">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Talent_2.0_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Talent_2.0_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Talent_2.0_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Talent_2.0_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Talent_2.0_Automation" class="hide-methods failed suite-Talent_2.0_Automation"> (hide)</a> <!-- hide-methods failed suite-Talent_2.0_Automation -->
+                      <a href="#" panel-name="suite-Talent_2.0_Automation" class="show-methods failed suite-Talent_2.0_Automation"> (show)</a> <!-- show-methods failed suite-Talent_2.0_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Talent_2.0_Automation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Talent_2.0_Automation" title="com.spire.requisitionResources.RequisitionResourcesTestPlan" hash-for-method="GetRequisitionSearch">GetRequisitionSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Talent_2.0_Automation" title="com.spire.requisitionResources.SearchResourcesTestPlan" hash-for-method="GetRequisitionSearch">GetRequisitionSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Talent_2.0_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Talent_2.0_Automation" class="panel Talent_2.0_Automation">
+          <div class="suite-Talent_2.0_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.spire.requisitionResources.RequisitionResourcesTestPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetRequisitionSearch">
+                  </a> <!-- GetRequisitionSearch -->
+                  <span class="method-name">GetRequisitionSearch</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.spire.service.consumers.RequisitionResourceConsumer.getRequisition(RequisitionResourceConsumer.java:55)
+	at com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch(RequisitionResourcesTestPlan.java:58)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Talent_2.0_Automation-class-failed -->
+          <div class="suite-Talent_2.0_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.spire.requisitionResources.SearchResourcesTestPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetRequisitionSearch">
+                  </a> <!-- GetRequisitionSearch -->
+                  <span class="method-name">GetRequisitionSearch</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.spire.service.consumers.RequisitionResourceConsumer.getRequisition(RequisitionResourceConsumer.java:55)
+	at com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch(SearchResourcesTestPlan.java:51)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Talent_2.0_Automation-class-failed -->
+        </div> <!-- panel Talent_2.0_Automation -->
+        <div panel-name="test-xml-Talent_2.0_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\HACK\gi\gi\src\test\java\com\spire\requisitionResources\SearchResourcesTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Talent 2.0 Automation&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;spire@123&quot;/&gt;
+  &lt;parameter name=&quot;healthCheck&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;host&quot; value=&quot;http://192.168.2.177:8180&quot;/&gt;
+  &lt;parameter name=&quot;userId&quot; value=&quot;tester@logica.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.spire.base.reporter.SpireReport&quot;/&gt;
+    &lt;listener class-name=&quot;com.spire.base.controller.TestRetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;RequsisitionSearchTestPlan&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;GetRequisitionSearch&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.spire.requisitionResources&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.spire.requisitionResources.RequisitionResourcesTestPlan&quot;/&gt;
+      &lt;class name=&quot;com.spire.requisitionResources.SearchResourcesTestPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RequsisitionSearchTestPlan --&gt;
+&lt;/suite&gt; &lt;!-- Talent 2.0 Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Talent_2.0_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Talent 2.0 Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RequsisitionSearchTestPlan (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Talent_2.0_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Talent 2.0 Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">GetRequisitionSearch</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetRequisitionSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetRequisitionSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Talent_2.0_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Talent 2.0 Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Talent_2.0_Automation');
+function tableData_Talent_2.0_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'GetRequisitionSearch')
+data.setCell(0, 2, 'com.spire.requisitionResources.SearchResourcesTestPlan')
+data.setCell(0, 3, 143);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GetRequisitionSearch')
+data.setCell(1, 2, 'com.spire.requisitionResources.RequisitionResourcesTestPlan')
+data.setCell(1, 3, 126);
+window.suiteTableData['Talent_2.0_Automation']= { tableData: data, tableDiv: 'times-div-Talent_2.0_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 269 ms</span>
+              <div id="times-div-Talent_2.0_Automation">
+              </div> <!-- times-div-Talent_2.0_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Talent_2.0_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Talent 2.0 Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetRequisitionSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inside of Login</span>
+                <span class="reporter-method-output">userId >>>>6079:6003:a31399a314a34fddb846e17c7ac49b5e</span>
+                <span class="reporter-method-output">tenantId  >>>>6079</span>
+                <span class="reporter-method-output">realmName  >>>>Realm2</span>
+                <span class="reporter-method-output">Authorization  >>>>eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhMTZlNDljYS05MDU3LTQ3OWQtOWE0NS01NDhhNTJiMzc4ZWEiLCJleHAiOjE0NzM5MjY5NzIsIm5iZiI6MCwiaWF0IjoxNDcxMzM0OTcyLCJpc3MiOiJodHRwOi8vMTcyLjE2LjAuMjE2OjgwODAvYXV0aC9yZWFsbXMvUmVhbG0yIiwiYXVkIjoidXNlci1zZXJ2aWNlIiwic3ViIjoiNTBjYzU5MDItNTE5My00NmY3LTkwMmItNGIzOGY4ZTgzNGM4IiwiYXpwIjoidXNlci1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6Ijg5MzdlODliLTNhMjAtNDdmNC1iYzMyLWZjNzEwODliNDMyMSIsImNsaWVudF9zZXNzaW9uIjoiOTA2MTE3OTItY2ZmYy00YTAxLWIwMzAtODRmZjZjNmY2NzVkIiwiYWxsb3dlZC1vcmlnaW5zIjpbXSwicmVzb3VyY2VfYWNjZXNzIjp7ImNybS1wcm9maWxlcyI6eyJyb2xlcyI6WyJhZG1pbiJdfSwicmVhbG0tbWFuYWdlbWVudCI6eyJyb2xlcyI6WyJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsInZpZXctcmVhbG0iLCJtYW5hZ2UtZXZlbnRzIiwibWFuYWdlLXJlYWxtIiwibWFuYWdlLWlkZW50aXR5LXByb3ZpZGVycyIsImltcGVyc29uYXRpb24iLCJyZWFsbS1hZG1pbiIsInZpZXctZXZlbnRzIiwibWFuYWdlLXVzZXJzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1jbGllbnRzIl19LCJjcm0tcnVsZXMiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1hY3Rpdml0eXN0cmVhbSI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYWN0aXZpdHktc3RyZWFtLXdlYiI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiY3JtLW5vdGVzLXdlYiI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYmxvYi1zdG9yZS13ZWIiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1ub3RpZmljYXRpb24td2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJ1c2VyLXNlcnZpY2UiOnsicm9sZXMiOlsiYWRtaW4iXX0sImJyb2tlciI6eyJyb2xlcyI6WyJyZWFkLXRva2VuIl19LCJzb2NpYWwtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJsYWJlbHMtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJ0YWxlbnQtZW50aXR5LWxheWVyIjp7InJvbGVzIjpbImFkbWluIl19LCJzZWFyY2gtYW5kLW1hdGNoLXNlcnZpY2UiOnsicm9sZXMiOlsiYWRtaW4iXX0sImxhYmVscy1iaXotd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tY2FtcGFpZ25zIjp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tc2VhcmNoLWJpei13ZWIiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1waXBlbGluZSI6eyJyb2xlcyI6WyJhZG1pbiJdfSwic3BpcmUtYml6Ijp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tZW1haWxzIjp7InJvbGVzIjpbImFkbWluIl19LCJzYXZlLXNlYXJjaCI6eyJyb2xlcyI6WyJhZG1pbiJdfSwidGFsZW50LWJpei1MYXllciI6eyJyb2xlcyI6WyJhZG1pbiJdfSwicHJvZmlsZXMtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50Iiwidmlldy1wcm9maWxlIl19fSwibmFtZSI6InVzZXIgdWF0IiwicHJlZmVycmVkX3VzZXJuYW1lIjoidXNlckB1YXQuY29tIiwiZ2l2ZW5fbmFtZSI6InVzZXIiLCJmYW1pbHlfbmFtZSI6InVhdCIsImVtYWlsIjoidXNlckB1YXQuY29tIn0.hABz0A-sVy2l3hnaKKlB8x-wjmCaOCLqUbm_2jI--um8Zza8SzLnZGogHbMdSU-XGBt_ui468EoZJxT1lzDKbDy_0awWitoUFal2_NHIDJD1VQYjPRZ706N1jJclfz6lJNU8yEm5t6OHFPb12gXu1NRj2gwbIePOm6poZmhorYx8JogGUqHprCeVOthyOeLOySlD3qFKN4U8JJGNlq93Mpcg_cFVWMurW47yF3Q6-JVNl_idNvGAyOgAC0EXX1cYRSe7E_DvHK6oICy7oRUqVLTsJ7I0FlxfXUjM7LPr2dBeSmh5W_7KWntED-MNOzccI9K0lcvW76Jn9VzokOqyCg</span>
+                <span class="reporter-method-output">Setting Headers from the service call !!!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetRequisitionSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inside of Login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Talent_2.0_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">22 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.spire.requisitionResources.RequisitionResourcesTestPlan</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">getcandidatestas</span>
+                <br/>
+                <span class="ignored-method-name">searchRequisitionWithStatusAndCount</span>
+                <br/>
+                <span class="ignored-method-name">candidatestasRequisitionWithinsearchcriteriaandrecordcountfalse</span>
+                <br/>
+                <span class="ignored-method-name">GetRequInvalidInputSrch</span>
+                <br/>
+                <span class="ignored-method-name">candidatestasRequisitionWithoutSearchCriteria</span>
+                <br/>
+                <span class="ignored-method-name">GetJobDesByID</span>
+                <br/>
+                <span class="ignored-method-name">candidatestasRequisitionWithonlyinsearchcriteria</span>
+                <br/>
+                <span class="ignored-method-name">GetJobDesByWrongID</span>
+                <br/>
+                <span class="ignored-method-name">GetMatchingReqWithAllFeilds</span>
+                <br/>
+                <span class="ignored-method-name">searchRequisitionWithoutSearchCriteria</span>
+                <br/>
+                <span class="ignored-method-name">searchRequisitionWithInSearchCriteria</span>
+                <br/>
+                <span class="ignored-method-name">searchRequisitionWithStatusAndCountFalse</span>
+                <br/>
+                <span class="ignored-method-name">searchRequisitionWithOpenStatusAndExperienceRange</span>
+                <br/>
+                <span class="ignored-method-name">GetMatchingReqWithOffSet</span>
+                <br/>
+                <span class="ignored-method-name">GetMatchingReqID</span>
+                <br/>
+                <span class="ignored-method-name">candidatestasRequisitionWithinsearchcriteriaandrecordcountTrue</span>
+                <br/>
+                <span class="ignored-method-name">GetRequInvalidSrch</span>
+                <br/>
+                <span class="ignored-method-name">GetMatchingReqOnlyLimit10</span>
+                <br/>
+                <span class="ignored-method-name">GetMatchingReqonlyLimit20</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.spire.requisitionResources.SearchResourcesTestPlan</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Talent_2.0_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spire.requisitionResources.RequisitionResourcesTestPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeTestSuite(org.testng.TestRunner@7f13d6e)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@7f13d6e, [Test: "RequsisitionSearchTestPlan" verbose:1[parameters:][metagroups...)</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spire.requisitionResources.SearchResourcesTestPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spire.requisitionResources.RequisitionResourcesTestPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([], public void com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch() t...)</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetRequisitionSearch</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=GetRequisitionSearch status=FAILURE method=RequisitionResourcesTestPlan.GetRequisit...)</span>
+                <span class="method-start">16458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetRequisitionSearch status=FAILURE method=RequisitionResourcesTestPlan.GetRequisit...)</span>
+                <span class="method-start">16459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch() throw...)</span>
+                <span class="method-start">16459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([], public void com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch() t...)</span>
+                <span class="method-start">16463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetRequisitionSearch</span>
+                <span class="method-start">16467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=GetRequisitionSearch status=FAILURE method=RequisitionResourcesTestPlan.GetRequisit...)</span>
+                <span class="method-start">16596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetRequisitionSearch status=FAILURE method=RequisitionResourcesTestPlan.GetRequisit...)</span>
+                <span class="method-start">16596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch() throw...)</span>
+                <span class="method-start">16596 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spire.requisitionResources.SearchResourcesTestPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([], public void com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch() throws...)</span>
+                <span class="method-start">16598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetRequisitionSearch</span>
+                <span class="method-start">16599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=GetRequisitionSearch status=FAILURE method=SearchResourcesTestPlan.GetRequisitionSe...)</span>
+                <span class="method-start">16722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetRequisitionSearch status=FAILURE method=SearchResourcesTestPlan.GetRequisitionSe...)</span>
+                <span class="method-start">16722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch() throws org...)</span>
+                <span class="method-start">16723 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([], public void com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch() throws...)</span>
+                <span class="method-start">16727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetRequisitionSearch</span>
+                <span class="method-start">16728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=GetRequisitionSearch status=FAILURE method=SearchResourcesTestPlan.GetRequisitionSe...)</span>
+                <span class="method-start">16874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetRequisitionSearch status=FAILURE method=SearchResourcesTestPlan.GetRequisitionSe...)</span>
+                <span class="method-start">16874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch() throws org...)</span>
+                <span class="method-start">16875 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spire.requisitionResources.RequisitionResourcesTestPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterTestSuite</span>
+                <span class="method-start">16982 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

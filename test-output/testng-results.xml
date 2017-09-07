@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Start :: Login with Username: tester@logica.comPassword: spire@123and hostName: http://192.168.2.177:8180]]>
+    </line>
+    <line>
+      <![CDATA[Start :: Login with Username: user@uat.comPassword: spire@123and hostName: http://192.168.2.177:8180]]>
+    </line>
+    <line>
+      <![CDATA[Inside of Login]]>
+    </line>
+    <line>
+      <![CDATA[userId >>>>6079:6003:a31399a314a34fddb846e17c7ac49b5e]]>
+    </line>
+    <line>
+      <![CDATA[tenantId  >>>>6079]]>
+    </line>
+    <line>
+      <![CDATA[realmName  >>>>Realm2]]>
+    </line>
+    <line>
+      <![CDATA[Authorization  >>>>eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI3MzFjMzQyOC0wYTM4LTQ5NDAtYjJjNy0xYmI0ZmM4YjllOWEiLCJleHAiOjE0NzM5MjY5NzEsIm5iZiI6MCwiaWF0IjoxNDcxMzM0OTcxLCJpc3MiOiJodHRwOi8vMTcyLjE2LjAuMjE2OjgwODAvYXV0aC9yZWFsbXMvUmVhbG0yIiwiYXVkIjoidXNlci1zZXJ2aWNlIiwic3ViIjoiNTBjYzU5MDItNTE5My00NmY3LTkwMmItNGIzOGY4ZTgzNGM4IiwiYXpwIjoidXNlci1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6ImRmOTk0ZWQwLTM2OTYtNDQwNC05YmIzLWUwMjA5MTE1OWY4NSIsImNsaWVudF9zZXNzaW9uIjoiNzAxYmRmYzItZTkzYy00OGRmLWIyZTEtNGVkNWE5MzM1Y2UwIiwiYWxsb3dlZC1vcmlnaW5zIjpbXSwicmVzb3VyY2VfYWNjZXNzIjp7ImNybS1wcm9maWxlcyI6eyJyb2xlcyI6WyJhZG1pbiJdfSwicmVhbG0tbWFuYWdlbWVudCI6eyJyb2xlcyI6WyJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsInZpZXctcmVhbG0iLCJtYW5hZ2UtZXZlbnRzIiwibWFuYWdlLXJlYWxtIiwibWFuYWdlLWlkZW50aXR5LXByb3ZpZGVycyIsImltcGVyc29uYXRpb24iLCJyZWFsbS1hZG1pbiIsInZpZXctZXZlbnRzIiwibWFuYWdlLXVzZXJzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1jbGllbnRzIl19LCJjcm0tcnVsZXMiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1hY3Rpdml0eXN0cmVhbSI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYWN0aXZpdHktc3RyZWFtLXdlYiI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiY3JtLW5vdGVzLXdlYiI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYmxvYi1zdG9yZS13ZWIiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1ub3RpZmljYXRpb24td2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJ1c2VyLXNlcnZpY2UiOnsicm9sZXMiOlsiYWRtaW4iXX0sImJyb2tlciI6eyJyb2xlcyI6WyJyZWFkLXRva2VuIl19LCJzb2NpYWwtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJsYWJlbHMtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJ0YWxlbnQtZW50aXR5LWxheWVyIjp7InJvbGVzIjpbImFkbWluIl19LCJzZWFyY2gtYW5kLW1hdGNoLXNlcnZpY2UiOnsicm9sZXMiOlsiYWRtaW4iXX0sImxhYmVscy1iaXotd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tY2FtcGFpZ25zIjp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tc2VhcmNoLWJpei13ZWIiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1waXBlbGluZSI6eyJyb2xlcyI6WyJhZG1pbiJdfSwic3BpcmUtYml6Ijp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tZW1haWxzIjp7InJvbGVzIjpbImFkbWluIl19LCJzYXZlLXNlYXJjaCI6eyJyb2xlcyI6WyJhZG1pbiJdfSwidGFsZW50LWJpei1MYXllciI6eyJyb2xlcyI6WyJhZG1pbiJdfSwicHJvZmlsZXMtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50Iiwidmlldy1wcm9maWxlIl19fSwibmFtZSI6InVzZXIgdWF0IiwicHJlZmVycmVkX3VzZXJuYW1lIjoidXNlckB1YXQuY29tIiwiZ2l2ZW5fbmFtZSI6InVzZXIiLCJmYW1pbHlfbmFtZSI6InVhdCIsImVtYWlsIjoidXNlckB1YXQuY29tIn0.6Sbigozn5dEDnE0VAy0tnc0SlnSsgjHZBz04yYV9X5Wh4m48XLHMvJkbzfg5fAOvBGGODaOwQsV53Z83GqxPOUHkEo9CZMefdMgRIiILf-JmJ-Ou6HuT2bUnyOJNWzB7y-CVBeF1j2_2vyRS05ggfbaIa-5pmu-OGykbotTUiSVYw7iQLTj-TJd_UBBjrIeaU0zeVbBJiHmSUn-uMSvr_UDoVHosffpGa8cQcHRMGil6BvW_TlD99iHGsSJ_RtX5xm01vW9QZMnIKc8X1-NXsZz8uNzFrnm8W-C8sTNJyxmrGoHC-pP3F2wUtNglqxIALso0PbWdBP7oGaJHx2Trlg]]>
+    </line>
+    <line>
+      <![CDATA[Setting Headers from the service call !!!]]>
+    </line>
+    <line>
+      <![CDATA[[RETRYING] class com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch FAILED, Retrying 1 time]]>
+    </line>
+    <line>
+      <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+    </line>
+    <line>
+      <![CDATA[Inside of Login]]>
+    </line>
+    <line>
+      <![CDATA[userId >>>>6079:6003:a31399a314a34fddb846e17c7ac49b5e]]>
+    </line>
+    <line>
+      <![CDATA[tenantId  >>>>6079]]>
+    </line>
+    <line>
+      <![CDATA[realmName  >>>>Realm2]]>
+    </line>
+    <line>
+      <![CDATA[Authorization  >>>>eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhMTZlNDljYS05MDU3LTQ3OWQtOWE0NS01NDhhNTJiMzc4ZWEiLCJleHAiOjE0NzM5MjY5NzIsIm5iZiI6MCwiaWF0IjoxNDcxMzM0OTcyLCJpc3MiOiJodHRwOi8vMTcyLjE2LjAuMjE2OjgwODAvYXV0aC9yZWFsbXMvUmVhbG0yIiwiYXVkIjoidXNlci1zZXJ2aWNlIiwic3ViIjoiNTBjYzU5MDItNTE5My00NmY3LTkwMmItNGIzOGY4ZTgzNGM4IiwiYXpwIjoidXNlci1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6Ijg5MzdlODliLTNhMjAtNDdmNC1iYzMyLWZjNzEwODliNDMyMSIsImNsaWVudF9zZXNzaW9uIjoiOTA2MTE3OTItY2ZmYy00YTAxLWIwMzAtODRmZjZjNmY2NzVkIiwiYWxsb3dlZC1vcmlnaW5zIjpbXSwicmVzb3VyY2VfYWNjZXNzIjp7ImNybS1wcm9maWxlcyI6eyJyb2xlcyI6WyJhZG1pbiJdfSwicmVhbG0tbWFuYWdlbWVudCI6eyJyb2xlcyI6WyJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsInZpZXctcmVhbG0iLCJtYW5hZ2UtZXZlbnRzIiwibWFuYWdlLXJlYWxtIiwibWFuYWdlLWlkZW50aXR5LXByb3ZpZGVycyIsImltcGVyc29uYXRpb24iLCJyZWFsbS1hZG1pbiIsInZpZXctZXZlbnRzIiwibWFuYWdlLXVzZXJzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1jbGllbnRzIl19LCJjcm0tcnVsZXMiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1hY3Rpdml0eXN0cmVhbSI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYWN0aXZpdHktc3RyZWFtLXdlYiI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiY3JtLW5vdGVzLXdlYiI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYmxvYi1zdG9yZS13ZWIiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1ub3RpZmljYXRpb24td2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJ1c2VyLXNlcnZpY2UiOnsicm9sZXMiOlsiYWRtaW4iXX0sImJyb2tlciI6eyJyb2xlcyI6WyJyZWFkLXRva2VuIl19LCJzb2NpYWwtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJsYWJlbHMtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJ0YWxlbnQtZW50aXR5LWxheWVyIjp7InJvbGVzIjpbImFkbWluIl19LCJzZWFyY2gtYW5kLW1hdGNoLXNlcnZpY2UiOnsicm9sZXMiOlsiYWRtaW4iXX0sImxhYmVscy1iaXotd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tY2FtcGFpZ25zIjp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tc2VhcmNoLWJpei13ZWIiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1waXBlbGluZSI6eyJyb2xlcyI6WyJhZG1pbiJdfSwic3BpcmUtYml6Ijp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tZW1haWxzIjp7InJvbGVzIjpbImFkbWluIl19LCJzYXZlLXNlYXJjaCI6eyJyb2xlcyI6WyJhZG1pbiJdfSwidGFsZW50LWJpei1MYXllciI6eyJyb2xlcyI6WyJhZG1pbiJdfSwicHJvZmlsZXMtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50Iiwidmlldy1wcm9maWxlIl19fSwibmFtZSI6InVzZXIgdWF0IiwicHJlZmVycmVkX3VzZXJuYW1lIjoidXNlckB1YXQuY29tIiwiZ2l2ZW5fbmFtZSI6InVzZXIiLCJmYW1pbHlfbmFtZSI6InVhdCIsImVtYWlsIjoidXNlckB1YXQuY29tIn0.hABz0A-sVy2l3hnaKKlB8x-wjmCaOCLqUbm_2jI--um8Zza8SzLnZGogHbMdSU-XGBt_ui468EoZJxT1lzDKbDy_0awWitoUFal2_NHIDJD1VQYjPRZ706N1jJclfz6lJNU8yEm5t6OHFPb12gXu1NRj2gwbIePOm6poZmhorYx8JogGUqHprCeVOthyOeLOySlD3qFKN4U8JJGNlq93Mpcg_cFVWMurW47yF3Q6-JVNl_idNvGAyOgAC0EXX1cYRSe7E_DvHK6oICy7oRUqVLTsJ7I0FlxfXUjM7LPr2dBeSmh5W_7KWntED-MNOzccI9K0lcvW76Jn9VzokOqyCg]]>
+    </line>
+    <line>
+      <![CDATA[Setting Headers from the service call !!!]]>
+    </line>
+    <line>
+      <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+    </line>
+    <line>
+      <![CDATA[Inside of Login]]>
+    </line>
+    <line>
+      <![CDATA[[RETRYING] class com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch FAILED, Retrying 1 time]]>
+    </line>
+    <line>
+      <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+    </line>
+    <line>
+      <![CDATA[Inside of Login]]>
+    </line>
+    <line>
+      <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+    </line>
+  </reporter-output>
+  <suite name="Talent 2.0 Automation" duration-ms="16844" started-at="2016-08-16T08:09:37Z" finished-at="2016-08-16T08:09:54Z">
+    <groups>
+      <group name="sanity">
+        <method signature="RequisitionResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="GetRequisitionSearch" class="com.spire.requisitionResources.RequisitionResourcesTestPlan"/>
+        <method signature="SearchResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="GetRequisitionSearch" class="com.spire.requisitionResources.SearchResourcesTestPlan"/>
+      </group> <!-- sanity -->
+      <group name="GetRequisitionSearch">
+        <method signature="RequisitionResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="GetRequisitionSearch" class="com.spire.requisitionResources.RequisitionResourcesTestPlan"/>
+        <method signature="SearchResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="GetRequisitionSearch" class="com.spire.requisitionResources.SearchResourcesTestPlan"/>
+      </group> <!-- GetRequisitionSearch -->
+    </groups>
+    <test name="RequsisitionSearchTestPlan" duration-ms="16844" started-at="2016-08-16T08:09:37Z" finished-at="2016-08-16T08:09:54Z">
+      <class name="com.spire.requisitionResources.SearchResourcesTestPlan">
+        <test-method status="PASS" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@71bbf57e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f13d6e]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Test: "RequsisitionSearchTestPlan" verbose:1[parameters:][metagroups:] [included: GetRequisitionSearch ][excluded: ]  classes:[XmlClass class=com.spire.requisitionResources.RequisitionResourcesTestPlan] [XmlClass class=com.spire.requisitionResources.SearchResourcesTestPlan]  packages:org.testng.xml.XmlPackage@8322593c ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRequisitionSearch status=FAILURE method=SearchResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee] output=Inside of Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="_takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="_takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRequisitionSearch status=FAILURE method=SearchResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee] output=Inside of Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- _takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="afterTestMethod" is-config="true" duration-ms="4" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@23faf8f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f13d6e]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Test: "RequsisitionSearchTestPlan" verbose:1[parameters:][metagroups:] [included: GetRequisitionSearch ][excluded: ]  classes:[XmlClass class=com.spire.requisitionResources.RequisitionResourcesTestPlan] [XmlClass class=com.spire.requisitionResources.SearchResourcesTestPlan]  packages:org.testng.xml.XmlPackage@8322593c ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="FAIL" signature="GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="GetRequisitionSearch" duration-ms="143" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.spire.service.consumers.RequisitionResourceConsumer.getRequisition(RequisitionResourceConsumer.java:55)
+	at com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch(SearchResourcesTestPlan.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1027)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1207)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Inside of Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetRequisitionSearch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRequisitionSearch status=FAILURE method=SearchResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee] output=Inside of Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="_takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="_takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRequisitionSearch status=FAILURE method=SearchResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee] output=Inside of Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- _takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spire.requisitionResources.SearchResourcesTestPlan.GetRequisitionSearch() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.spire.requisitionResources.SearchResourcesTestPlan -->
+      <class name="com.spire.requisitionResources.RequisitionResourcesTestPlan">
+        <test-method status="PASS" signature="beforeTestSuite(org.testng.ITestContext)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="beforeTestSuite" is-config="true" duration-ms="25" started-at="2016-08-16T13:39:37Z" finished-at="2016-08-16T13:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f13d6e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:37Z" finished-at="2016-08-16T13:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f13d6e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "RequsisitionSearchTestPlan" verbose:1[parameters:][metagroups:] [included: GetRequisitionSearch ][excluded: ]  classes:[XmlClass class=com.spire.requisitionResources.RequisitionResourcesTestPlan] [XmlClass class=com.spire.requisitionResources.SearchResourcesTestPlan]  packages:org.testng.xml.XmlPackage@8322593c ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spire.requisitionResources.SearchResourcesTestPlan@7085bdee]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:37Z" depends-on-methods="com.spire.base.controller.TestPlan.beforeTest" finished-at="2016-08-16T13:39:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Start :: Login with Username: tester@logica.comPassword: spire@123and hostName: http://192.168.2.177:8180]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="setUp" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:37Z" depends-on-methods="com.spire.requisitionResources.SearchResourcesTestPlan.setUp, com.spire.base.controller.TestPlan.beforeTest" finished-at="2016-08-16T13:39:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Start :: Login with Username: user@uat.comPassword: spire@123and hostName: http://192.168.2.177:8180]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="beforeTestMethod" is-config="true" duration-ms="4" started-at="2016-08-16T13:39:37Z" finished-at="2016-08-16T13:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2d6eabae]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f13d6e]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Test: "RequsisitionSearchTestPlan" verbose:1[parameters:][metagroups:] [included: GetRequisitionSearch ][excluded: ]  classes:[XmlClass class=com.spire.requisitionResources.RequisitionResourcesTestPlan] [XmlClass class=com.spire.requisitionResources.SearchResourcesTestPlan]  packages:org.testng.xml.XmlPackage@8322593c ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="_takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="_takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRequisitionSearch status=FAILURE method=RequisitionResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759] output=Inside of Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- _takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRequisitionSearch status=FAILURE method=RequisitionResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759] output=Inside of Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="afterTestMethod" is-config="true" duration-ms="3" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="beforeTestMethod" is-config="true" duration-ms="4" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4e7dc304]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f13d6e]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Test: "RequsisitionSearchTestPlan" verbose:1[parameters:][metagroups:] [included: GetRequisitionSearch ][excluded: ]  classes:[XmlClass class=com.spire.requisitionResources.RequisitionResourcesTestPlan] [XmlClass class=com.spire.requisitionResources.SearchResourcesTestPlan]  packages:org.testng.xml.XmlPackage@8322593c ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="FAIL" signature="GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="GetRequisitionSearch" duration-ms="126" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.spire.service.consumers.RequisitionResourceConsumer.getRequisition(RequisitionResourceConsumer.java:55)
+	at com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch(RequisitionResourcesTestPlan.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1027)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1207)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Inside of Login]]>
+            </line>
+            <line>
+              <![CDATA[userId >>>>6079:6003:a31399a314a34fddb846e17c7ac49b5e]]>
+            </line>
+            <line>
+              <![CDATA[tenantId  >>>>6079]]>
+            </line>
+            <line>
+              <![CDATA[realmName  >>>>Realm2]]>
+            </line>
+            <line>
+              <![CDATA[Authorization  >>>>eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhMTZlNDljYS05MDU3LTQ3OWQtOWE0NS01NDhhNTJiMzc4ZWEiLCJleHAiOjE0NzM5MjY5NzIsIm5iZiI6MCwiaWF0IjoxNDcxMzM0OTcyLCJpc3MiOiJodHRwOi8vMTcyLjE2LjAuMjE2OjgwODAvYXV0aC9yZWFsbXMvUmVhbG0yIiwiYXVkIjoidXNlci1zZXJ2aWNlIiwic3ViIjoiNTBjYzU5MDItNTE5My00NmY3LTkwMmItNGIzOGY4ZTgzNGM4IiwiYXpwIjoidXNlci1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6Ijg5MzdlODliLTNhMjAtNDdmNC1iYzMyLWZjNzEwODliNDMyMSIsImNsaWVudF9zZXNzaW9uIjoiOTA2MTE3OTItY2ZmYy00YTAxLWIwMzAtODRmZjZjNmY2NzVkIiwiYWxsb3dlZC1vcmlnaW5zIjpbXSwicmVzb3VyY2VfYWNjZXNzIjp7ImNybS1wcm9maWxlcyI6eyJyb2xlcyI6WyJhZG1pbiJdfSwicmVhbG0tbWFuYWdlbWVudCI6eyJyb2xlcyI6WyJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsInZpZXctcmVhbG0iLCJtYW5hZ2UtZXZlbnRzIiwibWFuYWdlLXJlYWxtIiwibWFuYWdlLWlkZW50aXR5LXByb3ZpZGVycyIsImltcGVyc29uYXRpb24iLCJyZWFsbS1hZG1pbiIsInZpZXctZXZlbnRzIiwibWFuYWdlLXVzZXJzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1jbGllbnRzIl19LCJjcm0tcnVsZXMiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1hY3Rpdml0eXN0cmVhbSI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYWN0aXZpdHktc3RyZWFtLXdlYiI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiY3JtLW5vdGVzLXdlYiI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYmxvYi1zdG9yZS13ZWIiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1ub3RpZmljYXRpb24td2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJ1c2VyLXNlcnZpY2UiOnsicm9sZXMiOlsiYWRtaW4iXX0sImJyb2tlciI6eyJyb2xlcyI6WyJyZWFkLXRva2VuIl19LCJzb2NpYWwtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJsYWJlbHMtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJ0YWxlbnQtZW50aXR5LWxheWVyIjp7InJvbGVzIjpbImFkbWluIl19LCJzZWFyY2gtYW5kLW1hdGNoLXNlcnZpY2UiOnsicm9sZXMiOlsiYWRtaW4iXX0sImxhYmVscy1iaXotd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tY2FtcGFpZ25zIjp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tc2VhcmNoLWJpei13ZWIiOnsicm9sZXMiOlsiYWRtaW4iXX0sImNybS1waXBlbGluZSI6eyJyb2xlcyI6WyJhZG1pbiJdfSwic3BpcmUtYml6Ijp7InJvbGVzIjpbImFkbWluIl19LCJjcm0tZW1haWxzIjp7InJvbGVzIjpbImFkbWluIl19LCJzYXZlLXNlYXJjaCI6eyJyb2xlcyI6WyJhZG1pbiJdfSwidGFsZW50LWJpei1MYXllciI6eyJyb2xlcyI6WyJhZG1pbiJdfSwicHJvZmlsZXMtd2ViIjp7InJvbGVzIjpbImFkbWluIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50Iiwidmlldy1wcm9maWxlIl19fSwibmFtZSI6InVzZXIgdWF0IiwicHJlZmVycmVkX3VzZXJuYW1lIjoidXNlckB1YXQuY29tIiwiZ2l2ZW5fbmFtZSI6InVzZXIiLCJmYW1pbHlfbmFtZSI6InVhdCIsImVtYWlsIjoidXNlckB1YXQuY29tIn0.hABz0A-sVy2l3hnaKKlB8x-wjmCaOCLqUbm_2jI--um8Zza8SzLnZGogHbMdSU-XGBt_ui468EoZJxT1lzDKbDy_0awWitoUFal2_NHIDJD1VQYjPRZ706N1jJclfz6lJNU8yEm5t6OHFPb12gXu1NRj2gwbIePOm6poZmhorYx8JogGUqHprCeVOthyOeLOySlD3qFKN4U8JJGNlq93Mpcg_cFVWMurW47yF3Q6-JVNl_idNvGAyOgAC0EXX1cYRSe7E_DvHK6oICy7oRUqVLTsJ7I0FlxfXUjM7LPr2dBeSmh5W_7KWntED-MNOzccI9K0lcvW76Jn9VzokOqyCg]]>
+            </line>
+            <line>
+              <![CDATA[Setting Headers from the service call !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetRequisitionSearch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRequisitionSearch status=FAILURE method=RequisitionResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759] output=Inside of Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spire.requisitionResources.RequisitionResourcesTestPlan.GetRequisitionSearch() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="_takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="_takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetRequisitionSearch status=FAILURE method=RequisitionResourcesTestPlan.GetRequisitionSearch()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759] output=Inside of Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- _takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterTestSuite()[pri:0, instance:com.spire.requisitionResources.RequisitionResourcesTestPlan@14bf9759]" name="afterTestSuite" is-config="true" duration-ms="0" started-at="2016-08-16T13:39:54Z" finished-at="2016-08-16T13:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
+      </class> <!-- com.spire.requisitionResources.RequisitionResourcesTestPlan -->
+    </test> <!-- RequsisitionSearchTestPlan -->
+  </suite> <!-- Talent 2.0 Automation -->
+</testng-results>
